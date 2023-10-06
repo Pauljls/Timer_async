@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cronometro</title> 
+</head>
+<body>
+<div class="grid">
+    <form id="form">
+        <Label id="outputs"> Ingresa su timer
+            <label >Horas
+                <input type="text" class="data" id="hrs">
+            </label>
+            <label >Minutos
+                <input type="text" class="data" id="mins">
+            </label>
+            <label > Segundos
+                <input type="text" class="data" id="segs">
+            </label>
+            <input type="submit" id="send">
+        </Label>
+    </form>
+    <div id="tem-card">
+        <div class="card" id="hrs-card">
+            
+        </div>
+        <div class="card" id="min-card">
+
+        </div>
+        <div class="card" id="seg-card">
+
+        </div>
+    </div>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>
